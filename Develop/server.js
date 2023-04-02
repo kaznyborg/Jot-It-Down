@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.use("/api/notes", apiRoutes);
 
 app.get('/notes', (req,res)=> {
-    res.sendFile(path.join(__dirname, './public/notes.html'))
+    res.sendFile(path.join(__dirname, '/public/notes.html'))
 });
 
 //spin up server
