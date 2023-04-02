@@ -13,15 +13,16 @@ I want to be able to write and save notes. The application should be help organi
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+https://arcane-everglades-03630.herokuapp.com/ 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+A user will go to the listed site. The landing page will appear. The user will then click the "Get Started" button to begin. A new page will load that will list all saved notes on the left side of the page. New notes can be entered after clicking the plus symbol. The user will then enter a tile and body of the note. Once those fields have content a save button will appear. This button will then be clicked and the note will appear on the saved notes list on the right side.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+![landing page](./public/assets/images/landing.png)
+![enter a new note](./public/assets/images/test123.png)
+![saved note](./public/assets/images/saved.png)
 
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 
