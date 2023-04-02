@@ -1,8 +1,9 @@
 const express = require('express');
 const path = require('path');
-const apiRoutes = require('./routes/apiRoutes')
+const apiRoutes = require('./routes/apiRoutes');
 const PORT = process.env.PORT || 3001;
 const app = express();
+
 
 //our middlewares
 app.use(express.json());
@@ -11,8 +12,8 @@ app.use(express.static('public'));
 
 app.use("/api/notes", apiRoutes);
 
-app.get('/notes', (req,res)=> {
-    res.sendFile(path.join(__dirname, '/public/notes.html'))
+app.get("/notes", (req,res)=> {
+    res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
 
 //spin up server
