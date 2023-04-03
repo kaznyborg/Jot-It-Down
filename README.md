@@ -1,4 +1,4 @@
-# Note Taker Starter Code
+# Jot-It-Down
 
 ## Description
 
